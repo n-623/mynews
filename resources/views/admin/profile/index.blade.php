@@ -46,7 +46,7 @@
                                     <td>{{ \Str::limit($profile->introduction, 250) }}</td>
                                     <td>
                                         <div>
-                                            <a href="{{ action('Admin\ProfileController@edit', ['id' => $profiles->id]) }}">編集</a>
+                                            <a href="{{ action('Admin\ProfileController@edit', ['id' => $profile->id]) }}">編集</a>
                                         </div>
                                     </td>
                                 </tr>
